@@ -6,7 +6,7 @@ import ScrollReveal from "scrollreveal";
 function cards() {
     return (
         <div>
-            <div className='w-min-screen items-center justify-center relative flex flex-col'>
+            <div className='w-full items-center justify-center relative flex flex-col'>
                 <div className='mt-[300px] w-[1232px] items-center justify-center relative flex'>
                     <p className='gt bg-clip-text text-white w-[905px]'>Experience your product as you create it.</p>
                 </div>
@@ -27,7 +27,7 @@ function cards() {
                             // shadowOffset={2}
                         >
                             <div className='w-[785px] h-[520px]  mr-[15px] border-[0.08px] border-gray-700 rounded-[26px] bg-[#161B22] relative'>
-                                <img src={require('./img/a.png')} alt="" />
+                                <img src={require('./img/a.png')} alt="" className='' />
                                 <p className="t1 text-transparent  bg-clip-text bg-gradient-to-r from-[#F5F5F8] to-[#BBBBBD]  mt-[30px]">Effortlessly tracking with Black</p>
                                 <p className='t2  w-[487px] inline-block'>Designed for you, Black is the perfect solution for you and
                                     your teams tracking time."</p>
