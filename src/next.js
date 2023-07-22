@@ -3,29 +3,29 @@ import './App.css'
 
 const next = () => {
     return (
-        <div className='m-[100px]'>
+        <div className='m-[100px] '>
 
 
-            <div className='flex mt-[150px] mb-[100px] h-[1900px] bg-black z-[0]         ' id='neww'>
-                <div className=' h-[275px] top-[250px] flex flex-col sticky'>
+            <div className='flex mt-[150px] mb-[100px] h-[1900px]  bg-black z-[0]    relative     ' id='neww'>
+                <div className=' h-[275px] top-[250px]  sticky'>
                     <p className='nt1 w-[541.435px] text-transparent  bg-clip-text bg-gradient-to-r from-[#F5F5F8]  to-[#BBBBBD]'>Designed for
                         your team, see  for yourself
                     </p>
-                    <p className='nt2'>
+                    <p className='nt2 w-[638px]'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna urna,
                         sodales vel quam ut, tincidunt ultrices arcu. Suspendisse vehicula id est a
                         varius.
                     </p>
                 </div>
-                <div className='flex flex-col justify-center top-[520px] h-[1400px] ml-[100px] relative  items-center  '>
-                    <div><p className='nt3'>5.0</p>
+                <div className='justify-center top-[520px] h-[1400px] ml-[100px] relative  items-center  '>
+                    <div className=' relative'><p className='nt3'>5.0</p>
                         <p className='nt2'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna urna,
                             sodales vel quam ut, tincidunt ultrices arcu. Suspendisse vehicula id est a
                             varius.
                         </p>
                     </div>
-                    <div>
+                    <div className=' relative'>
                         <p className='nt3 relative mt-[200px]'>10+</p>
                         <p className='nt2'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna urna,
@@ -33,7 +33,7 @@ const next = () => {
                             varius.
                         </p>
                     </div>
-                    <div>
+                    <div className=' relative'>
                         <p className='nt3 relative mt-[200px]'>
                             $0
                         </p>
@@ -43,7 +43,7 @@ const next = () => {
                             varius.
                         </p>
                     </div>
-                    <div>
+                    <div className=' relative'>
                         <p className='nt3 relative mt-[200px]'>9.8</p>
                         <p className='nt2 relative'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna urna,

@@ -25,7 +25,7 @@ function nav() {
 
     return (
         <div>
-            <div className='sticky flex justify-center w-full z-50'>
+            <div className='sticky flex justify-center w-min-screen z-50'>
                 <div className="w-[700px] h-[55px] bg-[#212121]  rounded-[100px] fixed top-[10px]">
                     <div class="flex justify-between ">
                         <div className=' left-[19px] top-[16px] relative '>
@@ -42,16 +42,16 @@ function nav() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col justify-center w-full mt-[0px] h-[1050px] bg-black z-[0]     justify-center items-center     ' id='neww'>
+            <div className='flex flex-col justify-center w-min-screen mt-[0px] h-[1050px] bg-black z-[0]     justify-center items-center     ' id='neww'>
                 <div className='w-[1200px] h-[275px] top-[250px] flex sticky'>
                     <p className='relative text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#EEC5BD] via-[#F3B1A5]  via-[#C6CAF6] to-[#DAD9E9]' style={st}>Take charge of your money & Grow it, effortlessly.</p>
                 </div>
-                <div className='flex flex-col justify-center w-full top-[-280px]  relative  items-center '>
+                <div className='flex flex-col justify-center w-min-screen top-[-280px]  relative  items-center '>
                     <img src={require('./img/phone.png')} alt="" srcset="" className='w-[294px] h-[600px]' />
 
                 </div>
             </div>
-            <div className='h-[350px] w-full bg-black  flex flex-col items-center '>
+            <div className='h-[350px] w-min-screen bg-black  flex flex-col items-center '>
                 <div className=' '><p className='texx w-[716px]'>Effortlessly track and manage your time with Black. Customizable reports, invoicing, and integrations make it the perfect tool for freelancers and professionals.</p>
                 </div>
 

@@ -14,7 +14,7 @@ import Foot from './foot.js'
 function App() {
   
   return (
-    <div className='bg-black w-full'>
+    <div className='bg-black w-min-screen'>
       <div className="App bg-black">
         <Nav></Nav>
         <Cards></Cards>

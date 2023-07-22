@@ -14,14 +14,14 @@ const scrolling = () => {
 function sec() {
     return (
         <div>
-            <div className='w-full h-[1210px] bg-[#161B22] text-center'>
+            <div className='w-min-screen h-[1210px] bg-[#161B22] text-center'>
                 <Zoom reset><div className='relative top-[200px]'>
                     <p className='gt text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#F5F5F8]  to-[#BBBBBD]'>
                         Effortlessly Integration
                     </p>
                     <p className='texx w-[600px] inline-block '>Fly through your tasks with rapid-fire keyboard shortcuts for everything. Literally everything.</p>
                 </div></Zoom>
-                <div className=' w-full h-[155px]  grid grid-cols-7 ml-[55px] mt-[450px]'>
+                <div className=' w-min-screen h-[155px]  grid grid-cols-7 ml-[55px] mt-[450px]'>
                     <img src={require('./img/11.png')} alt="" srcset="" className=' yo ' />
                     <img src={require('./img/22.png')} alt="" srcset="" className=' yo' />
                     <img src={require('./img/33.png')} alt="" srcset="" className=' yo' />
@@ -55,7 +55,7 @@ function sec() {
 
                     </div>
                     <hr className='w-[500px] bor' />
-                    <div className='h-[240px] w-full bg-[#161B22] text-center z-20'> <p className='nn text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#F5F5F8]  to-[#BBBBBD] relative top-[70px]'>
+                    <div className='h-[240px] w-min-screen bg-[#161B22] text-center z-20'> <p className='nn text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#F5F5F8]  to-[#BBBBBD] relative top-[70px]'>
                         Integrates with your workflow do need to change
                     </p>
                         <p className='texxt w-[600px] inline-block top-[80px] relative'>Fly through your tasks with rapid-fire keyboard shortcuts for
