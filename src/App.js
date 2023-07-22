@@ -1,23 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav from './nav.js'
+import First from './first.js'
+import Cards from './cards'
+import Sec from './sec'
+import ScrollReveal from "scrollreveal";
+import { motion } from "framer-motion"
+import Next from './next.js'
+import Nextt from './nextt.js'
+import Nexttt from './nexttt.js'
+import Foot from './foot.js'
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-black w-min-screen'>
+      <div className="App bg-black">
+        <Nav></Nav>
+        <Cards></Cards>
+      </div>
+      {/* <First></First>s */}
+      <Sec></Sec>
+      <Next></Next>
+      <Nextt></Nextt>
+      <Nexttt></Nexttt>
+      <Foot></Foot>
+      <script src={require('.')}></script>
+      
     </div>
   );
 }
