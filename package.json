@@ -15,7 +15,7 @@
     "scrollreveal": "^4.0.9",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/deepshikhalcb049/newprojectttt",
+  "homepage": "https://deepshikhalcb049.github.io/newprojectttt",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
