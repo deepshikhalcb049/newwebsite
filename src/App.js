@@ -14,16 +14,20 @@ import Foot from './foot.js'
 function App() {
   
   return (
-    <div className='bg-black w-min-screen'>
-      <div className="App bg-black">
+    <div className=' '>
+      <div className="App w-max bg-black">
         <Nav></Nav>
         <Cards></Cards>
       </div>
       {/* <First></First>s */}
-      <Sec></Sec>
-      <Next></Next>
+     <div className='w-max bg-black'>
+     <Sec></Sec>
+     <Next></Next>
       <Nextt></Nextt>
+     </div>
       <Nexttt></Nexttt>
+     
+      
       <Foot></Foot>
       <script src={require('.')}></script>
       

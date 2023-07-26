@@ -2,21 +2,21 @@ import React from 'react';
 
 const next = () => {
     return (
-        <div>
-            <div className='flex flex-col justify-center w-min-screen mt-[100px] h-[1550px] bg-black z-[0]     justify-center items-center     ' id='neww'>
-                <div className='w-[400px]  h-[635px] top-[70px] flex sticky z-30'>
+        <div className='w-[1518px] bg-black'>
+            <div className='flex flex-col justify-center w-[1518px]  h-[1550px] bg-black z-[0]     items-center     ' id='neww'>
+                <div className='w-[400px]  h-[635px] top-[70px] flex sticky z-30 bk'>
                     <img src={require('./img/nphone.png')} alt="" />
                 </div>
                 <div className='flex flex-col justify-center   h-[90px]  relative  items-center z-0 '>
                     {/* <img src={require('./img/phone.png')} alt="" srcset="" className='w-[294px] h-[00px]' /> */}
 
                 </div>
-                <div className='flex flex-col justify-center w-full  h-[1000px]  relative  items-center bg-white z-0 '>
+                <div className='flex flex-col justify-center  h-[1000px]  relative  items-center bg-white w-[1518px] z-0 '>
                     {/* <img src={require('./img/phone.png')} alt="" srcset="" className='w-[294px] h-[00px]' /> */}
 
                 </div>
             </div>
-            <div className='bg-white'>
+            <div className='bg-white w-[1518px]'>
                 <div className='flex flex-col h-[700px] relative justify-center items-center top-[0px]'>
                     <p className='nt1 w-[729px] text-center leading-8'>
                         Take control of your time with Black!

@@ -24,8 +24,8 @@ const st = {
 function nav() {
 
     return (
-        <div>
-            <div className='sticky flex justify-center w-min-screen z-50'>
+        <div className='w-[1518px] bg-black'> 
+            <div className='sticky flex justify-center  w-auto z-50'>
                 <div className="w-[700px] h-[55px] bg-[#212121]  rounded-[100px] fixed top-[10px]">
                     <div class="flex justify-between ">
                         <div className=' left-[19px] top-[16px] relative '>

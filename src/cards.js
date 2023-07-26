@@ -5,18 +5,18 @@ import ScrollReveal from "scrollreveal";
 
 function cards() {
     return (
-        <div>
-            <div className='w-full items-center justify-center relative flex flex-col'>
+        <div className='w-[1500px] bg-black'>
+            <div className=' items-center justify-center relative flex flex-col'>
                 <div className='mt-[300px] w-[1232px] items-center justify-center relative flex'>
                     <p className='gt bg-clip-text text-white w-[905px]'>Experience your product as you create it.</p>
                 </div>
-                <div className='mt-[100px] h-[1200px] '>
+                <div className='mt-[100px] h-[1200px] w-fit md:w-min '>
                     <div className='flex h-[48%]'>
                         <Atropos
                             className="atropos-banner"
                             highlight={false}
                             activeOffset={0}
-                            duration={700}
+                            duration={400}
                             // shadowScale={1.05}
                             // shadowOffset={2.5}	
                             stretchZ={15}
@@ -37,7 +37,7 @@ function cards() {
                             className="atropos-banner"
                             highlight={false}
                             activeOffset={40}
-                            duration={700}
+                            duration={500}
                             // shadowScale={1.05}
                             // shadowOffset={2.5}	
                             stretchZ={15}
@@ -60,7 +60,7 @@ function cards() {
                             className="atropos-banner"
                             highlight={false}
                             activeOffset={40}
-                            duration={700}
+                            duration={400}
                             // shadowScale={1.05}
                             // shadowOffset={2.5}	
                             stretchZ={15}
@@ -81,7 +81,7 @@ function cards() {
                             className="atropos-banner"
                             highlight={false}
                             activeOffset={0}
-                            duration={700}
+                            duration={500}
                             // shadowScale={1.05}
                             // shadowOffset={2.5}	
                             stretchZ={15}

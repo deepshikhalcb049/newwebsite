@@ -14,7 +14,7 @@ const scrolling = () => {
 function sec() {
     return (
         <div>
-            <div className='w-min-screen h-[1210px] bg-[#161B22] text-center'>
+            <div className='w-[1518px] h-[1210px] bg-[#161B22] text-center'>
                 <Zoom reset><div className='relative top-[200px]'>
                     <p className='gt text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#F5F5F8]  to-[#BBBBBD]'>
                         Effortlessly Integration
@@ -68,6 +68,9 @@ function sec() {
 
             </div>
             {/* <script src={require('./help.js')}></script> */}
+            <div className='h-[100px]'>
+
+            </div>
         </div>
     )
 }
