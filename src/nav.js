@@ -24,34 +24,34 @@ const st = {
 function nav() {
 
     return (
-        <div className='w-[1518px] bg-black'> 
-            <div className='sticky flex justify-center  w-auto z-50'>
+        <div className=' bg-black flex flex-col shrink'> 
+            <div className='sticky flex  shrink justify-center  z-50'>
                 <div className="w-[700px] h-[55px] bg-[#212121]  rounded-[100px] fixed top-[10px]">
-                    <div class="flex justify-between ">
+                    <div class="flex  shrink justify-between ">
                         <div className=' left-[19px] top-[16px] relative '>
                             <div className='w-[80px] h-[44px] '> <img src={require('./img/loo.png')} alt="" /></div>
                         </div>
                         <div className='flex relative w-[300px] justify-between text-[#81859F] top-[15px]' style={text1}>
-                            <div className=''>Home</div>
-                            <div className=''>Team</div>
-                            <div className=''>Blog</div>
-                            <div className=''>Contact Us</div>
+                            <div className=''>Feautures</div>
+                            <div className=''>About</div>
+                            <div className=''>Pricing</div>
+                            <div className=''>Blog </div>
                         </div>
 
                         <div className='relative top-[10px] right-[21px]'> <button className='bg-white rounded-[100px] w-[83px] h-[35px]' style={text1}>Sign up</button> </div>
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col justify-center w-min-screen mt-[0px] h-[1050px] bg-black z-[0]     justify-center items-center     ' id='neww'>
-                <div className='w-[1200px] h-[275px] top-[250px] flex sticky'>
-                    <p className='relative text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#EEC5BD] via-[#F3B1A5]  via-[#C6CAF6] to-[#DAD9E9]' style={st}>Take charge of your money & Grow it, effortlessly.</p>
+            <div className='flex flex-col shrink  w-min-screen mt-[0px] h-[1050px] bg-black z-[0]     justify-center items-center     ' id='neww'>
+                <div className='w-auto  top-[250px] flex  sticky'>
+                    <p className='relative text-transparent  text-8xl bg-clip-text bg-gradient-to-r from-[#EEC5BD] via-[#F3B1A5]  via-[#C6CAF6] to-[#DAD9E9]' style={st}>Take charge of your money & Grow it, effortlessly.</p>
                 </div>
                 <div className='flex flex-col justify-center w-min-screen top-[-280px]  relative  items-center '>
                     <img src={require('./img/phone.png')} alt="" srcset="" className='w-[294px] h-[600px]' />
 
                 </div>
             </div>
-            <div className='h-[350px] w-min-screen bg-black  flex flex-col items-center '>
+            <div className='h-[350px] w-min-screen bg-black flex flex-col shrink items-center '>
                 <div className=' '><p className='texx w-[716px]'>Effortlessly track and manage your time with Black. Customizable reports, invoicing, and integrations make it the perfect tool for freelancers and professionals.</p>
                 </div>
 

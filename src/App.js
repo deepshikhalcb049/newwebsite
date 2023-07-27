@@ -15,12 +15,12 @@ function App() {
   
   return (
     <div className=' '>
-      <div className="App w-max bg-black">
+      <div className="App  bg-black w-full ">
         <Nav></Nav>
         <Cards></Cards>
       </div>
       {/* <First></First>s */}
-     <div className='w-max bg-black'>
+     <div className=' bg-black'>
      <Sec></Sec>
      <Next></Next>
       <Nextt></Nextt>

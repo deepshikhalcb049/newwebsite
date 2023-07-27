@@ -1,7 +1,7 @@
 import react from 'react';
 const foot = () => {
     return (
-        <div className='bg-white w-full grid grid-cols-2 relative '>
+        <div className='bg-white w-full grid grid-cols-2 relative right-[100px] pl-[100px]'>
             <div className='mt-[100px] bg-white w-max  left-[120px] relative'>
 <img src={require('./img/lo.png')} alt="" className='w-[139px] h-[34px] ' />
             </div>

@@ -13,8 +13,8 @@ const scrolling = () => {
 
 function sec() {
     return (
-        <div>
-            <div className='w-[1518px] h-[1210px] bg-[#161B22] text-center'>
+        <div className='w-full bg-[#161B22]'>
+            <div className='w-full h-[1210px] bg-[#161B22] text-center'>
                 <Zoom reset><div className='relative top-[200px]'>
                     <p className='gt text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#F5F5F8]  to-[#BBBBBD]'>
                         Effortlessly Integration

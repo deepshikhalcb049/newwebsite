@@ -2,8 +2,8 @@ import React from 'react';
 
 const nextt = () => {
     return (
-        <div className='w-[1500px] bg-black'>
-            <div className=' justify-center items-center relative flex flex-col w-[1500px] bg-black' >
+        <div className='w-full bg-black'>
+            <div className=' justify-center items-center relative flex flex-col w-full bg-black' >
                 <div className='relative flex flex-col justify-center items-center'>
 
                     <p className='nt1  text-transparent  bg-clip-text bg-gradient-to-r from-[#F5F5F8]  to-[#BBBBBD]'>Start using Black now</p>
