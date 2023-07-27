@@ -52,10 +52,10 @@ body{
   color: #B4BCD0;
   text-align: center;
   font-family: Manrope;
-  font-size: 18px;
+  /* font-size: 18px; */
   font-style: normal;
   font-weight: 450;
-  line-height: 26.6px;
+  /* line-height: 26.6px; */
   letter-spacing: 1px;
 }
 .area{
