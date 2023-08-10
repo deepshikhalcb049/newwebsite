@@ -68,18 +68,18 @@ body{
 .areabut{
   position: relative;
   /* top:2px; */
-  width: 160px;
-  height: 45px;
   flex-shrink: 0;
   border-radius: 100px;
-background: #FFF;
-transform: translateX(-101%);
-color: black;
+  background: #FFF;
+  transform: translateX(-101%);
+  color: black;
   text-align: center;
   font-family: Manrope;
-  font-size: 18px;
   font-style: normal;
   font-weight: 550;
+  font-size: 18px;
+  width: 160px;
+  height: 45px;
   line-height: 26.6px;
   letter-spacing: 1px;
 }
@@ -106,9 +106,9 @@ line-height: 112.5px;
   /* color: white; */
   text-align: center;
 font-family: Manrope;
-font-size: 32px;
 font-style: normal;
 font-weight: 500;
+font-size: 32px;
 line-height: 48px;
 }
 .t2{
@@ -251,9 +251,9 @@ line-height: 24px;
 .ft2{
   color: #323232;
 font-family: Manrope;
-font-size: 17px;
 font-style: normal;
 font-weight: 400;
+font-size: 17px;
 line-height: 20.4px; 
 }
 .a1{
@@ -265,4 +265,26 @@ font-style: normal;
 font-weight: 500;
 line-height: 25.6px; /* 160% */
 letter-spacing: 1px;
+}
+@media only screen and (max-width: 380px){
+  .gt{
+    font-size: 20px;
+    line-height: 25.5px;
+  }
+  .t1{
+    
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .t2{
+    margin-top: 0;
+    font-size: 5px;
+line-height: 7.4px; 
+  }
+  .areabut{
+    font-size: 15px;
+    /* width: 10px; */
+    height: 30px;
+    line-height: 10.6px;
+  }
 }

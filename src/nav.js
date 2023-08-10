@@ -42,11 +42,11 @@ function nav() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col shrink  w-min-screen mt-[0px] min-[380px]:h-[1050px] h-[800px] bg-black z-[0]     justify-center items-center     ' id='neww'>
+            <div className='flex flex-col shrink  w-min-screen mt-[0px] min-[380px]:h-[1150px] h-[800px] bg-black z-[0]     justify-center items-center     ' id='neww'>
                 <div className='w-auto  min-[380px]:top-[250px] top-[300px] flex  sticky'>
                     <p className='relative text-transparent  text-[25px] min-[380px]:text-[93px] bg-clip-text bg-gradient-to-r from-[#EEC5BD] via-[#F3B1A5]  via-[#C6CAF6] to-[#DAD9E9]' style={st}>Take charge of your money & Grow it, effortlessly.</p>
                 </div>
-                <div className='flex flex-col justify-center w-min-screen min-[380px]:top-[-280px] top-[-100px]  relative  items-center '>
+                <div className='flex flex-col justify-center w-min-screen min-[380px]:top-[-290px] top-[-100px]  relative  items-center '>
                     <img src={require('./img/phone.png')} alt="" srcset="" className='min-[380px]:w-[294px] w-[120px] min-[380px]:h-[600px] h-[280px]' />
 
                 </div>

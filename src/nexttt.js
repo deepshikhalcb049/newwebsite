@@ -34,8 +34,8 @@ const next = () => {
                         <img src={require('./img/g3.png')} alt="" />
                     </div>
                 </div>
-                <div className='w-[100%] flex flex-col shrink'>
-                    <div className='flex gap-x-8 relative w-[100%] pl-[110px] pr-[85px] h-[380px] top-[50px] mr-[60px]  shrink'>
+                <div className='w-[100%]  relative justify-center  items-center  flex shrink'>
+                    <div className='flex gap-x-8 justify-center items-center relative  h-[500px] top-[0px]   shrink'>
                         <div  className='bg-[#F5F5F8] w-[400px] h-[330px] rounded-[25px] flex flex-col shrink'>
                             <img src={require('./img/g4.png')} alt="" srcset="" className='  flex flex-col shrink h-[171px] w-[411px]' />
                             <p className='te1'>Group tracking</p>
